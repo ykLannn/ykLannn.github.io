@@ -44,8 +44,13 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.jpg',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Lanyk',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  bio: 'Enjoy LAZYiNG.',
   links: [
+    {
+      name: 'GitHub',
+      icon: 'fa6-brands:github',
+      url: 'https://github.com/ykLannn',
+    },
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
@@ -58,11 +63,7 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:steam',
       url: 'https://steamcommunity.com/profiles/76561198929108039/',
     },
-    {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/ykLannn',
-    },
+    
   ],
 }
 
