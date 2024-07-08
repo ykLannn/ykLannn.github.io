@@ -124,6 +124,9 @@ importers:
       '@iconify-json/material-symbols':
         specifier: ^1.1.82
         version: 1.1.83
+      '@iconify-json/uiw':
+        specifier: ^1.1.12
+        version: 1.1.12
       '@iconify/svelte':
         specifier: ^4.0.2
         version: 4.0.2(svelte@4.2.18)
@@ -1101,6 +1104,9 @@ packages:
 
   '@iconify-json/material-symbols@1.1.83':
     resolution: {integrity: sha512-CBO1pPp6YRzqkM8XwRmWY9Vi19wYpkl7lS8XhLDUssDnjQaaYbmE4O1SWCBr1AVn1x48qmCWXLk4HKWLvvQpvA==, tarball: https://registry.npmmirror.com/@iconify-json/material-symbols/-/material-symbols-1.1.83.tgz}
+
+  '@iconify-json/uiw@1.1.12':
+    resolution: {integrity: sha512-0GFwzIBXDsVjVwphPtXBKjqZX1oBsElkVLHv4RDB8giQPfNJSj2noenvnWHn0OOMcSLLIf+vmQlM6euyMiAvMA==, tarball: https://registry.npmmirror.com/@iconify-json/uiw/-/uiw-1.1.12.tgz}
 
   '@iconify/svelte@4.0.2':
     resolution: {integrity: sha512-6BSrU85FzGfhQD3bTXpnkCCvBAglEt8T9QednVnXAYm4C+d3464y+pYMzhQNJm5mPId2cuiw+2wXlDflXllHDw==, tarball: https://registry.npmmirror.com/@iconify/svelte/-/svelte-4.0.2.tgz}
@@ -5851,6 +5857,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/material-symbols@1.1.83':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/uiw@1.1.12':
     dependencies:
       '@iconify/types': 2.0.0
 
