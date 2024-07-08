@@ -1,7 +1,7 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is the site for [ykLannn](https://github.com/ykLannn).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="ykLannn"}
 
 > ### Sources of images used in this site
 > - [Unsplash](https://unsplash.com/)
