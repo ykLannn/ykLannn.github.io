@@ -27,11 +27,11 @@ export const siteConfig: SiteConfig = {
     //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
     // }
     {
-      src: '../public/favicon/light.png',
+      src: '../public/favicon/favicon-light-32.png',
       theme: 'light',
     },
     {
-      src: '../public/favicon/dark.png',
+      src: '../public/favicon/favicon-dark-32.png',
       theme: 'dark',
     },
   ],
