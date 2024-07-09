@@ -28,7 +28,7 @@ export const siteConfig: SiteConfig = {
     {
       src:'/public/favicon/light.png',
       theme:'light'
-    }
+    },
     {
       src:'/public/favicon/dark.png',
       theme:'dark'
