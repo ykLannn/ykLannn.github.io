@@ -28,11 +28,6 @@ export const siteConfig: SiteConfig = {
     // }
     {
       src: '../public/favicon/favicon-light-32.png',
-      theme: 'light',
-    },
-    {
-      src: '../public/favicon/favicon-dark-32.png',
-      theme: 'dark',
     },
   ],
 }
