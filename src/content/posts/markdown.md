@@ -169,7 +169,7 @@ which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
 ### 简介
 
-<img src='./test/logo.png' width='120px' style='float:left'>
+<img src='../../assets/images/logo.png' width='120px' style='float:left'>
 
 `Markdown` 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
 
@@ -713,7 +713,7 @@ function test() {
 可使用相对路径（前提是有该路径下的文件）
 [test](test.md)
 ```
-[test](./test/test.md)
+[test](../../assets/images/test.md)
 
 
 
@@ -764,7 +764,7 @@ function test() {
 ![logo](./test/logo.png "logo")
 ```
 
-![logo](../../assets/images/avatar.jpg "logo")
+![logo](../../assets/images/test.jpg "logo")
 
 
 
@@ -780,7 +780,7 @@ function test() {
 
  ![RUNOOB][img]
 
-[img]: ../../assets/images/avatar.jpg
+[img]: ../../assets/images/test.jpg
 
 
 
@@ -795,7 +795,7 @@ function test() {
 
 
 
-<img src="../../assets/images/avatar.jpg" width="50px" height="30px">
+<img src="../../assets/images/test.jpg" width="50px" height="30px">
 
 
 
@@ -812,7 +812,7 @@ function test() {
 
 
 
-![头像图片](../../assets/images/avatar.jpg)
+![头像图片](../../assets/images/test.jpg)
 
 其他仓库的图片：
 
