@@ -8,8 +8,6 @@ category: ''
 draft: false 
 ---
 
- ![RUNOOB][php2]
-
 # 关于php
 
 - PHP 是 "PHP Hypertext Preprocessor" 的首字母缩略词
@@ -584,7 +582,7 @@ else
     条件不成立时执行的代码;  
 }
 ```
-
+![RUNOOB][php2]
 ![RUNOOB][php3]
 
 [php2]: ./php2.jpg
