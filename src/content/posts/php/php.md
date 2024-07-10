@@ -2,11 +2,13 @@
 title: php
 published: 2024-07-10
 description: '一篇关于php的基础入门教程'
-image: '/src/content/posts/php/'
+image: './php1.jpg'
 tags: []
 category: ''
 draft: false 
 ---
+
+ ![RUNOOB][php2]
 
 # 关于php
 
@@ -582,3 +584,8 @@ else
     条件不成立时执行的代码;  
 }
 ```
+
+![RUNOOB][php3]
+
+[php2]: ./php2.jpg
+[php3]: ./php3.png
