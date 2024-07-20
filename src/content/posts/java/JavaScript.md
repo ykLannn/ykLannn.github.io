@@ -7,6 +7,8 @@ tags: [JavaScript,java]
 category: 'java'
 draft: false 
 ---
+## JS基础语法
+### 输出语句
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +27,7 @@ draft: false
 </script>
 </html>
 ```
+### 变量
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -49,6 +52,7 @@ draft: false
 </script>
 </html>
 ```
+### 数据类型
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -80,6 +84,7 @@ draft: false
 </script>
 </html>
 ```
+## JS函数
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -101,6 +106,8 @@ draft: false
 </script>
 </html>
 ```
+## JS对象
+###　array
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -145,6 +152,7 @@ draft: false
 </script>
 </html>
 ```
+### String
 ```html
 <!DOCTYPE html>
 <html lang="en">
