@@ -9,7 +9,6 @@ draft: false
 ---
 ## JS基础语法
 ----------------------------
-
 ### 输出语句
 ```html
 <!DOCTYPE html>
@@ -109,8 +108,8 @@ draft: false
 </html>
 ```
 ## JS对象
-----------------------
-###　array
+----------------------------
+### array
 ```html
 <!DOCTYPE html>
 <html lang="en">
