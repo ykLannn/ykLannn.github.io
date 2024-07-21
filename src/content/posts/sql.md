@@ -33,6 +33,9 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```sql
 -- 查询满足多个条件的数据行
 SELECT column1, column2 FROM table_name WHERE condition1 AND condition2;
+SELECT column1, column2 FROM table_name WHERE condition1 OR condition2;
+SELECT column1, column2 FROM table_name WHERE condition1 NOT condition2;
+
 ```
 ### 比较运算符
 ```sql
@@ -40,6 +43,10 @@ SELECT column1, column2 FROM table_name WHERE condition1 AND condition2;
 SELECT column1, column2 FROM table_name WHERE column1 > 10;
 SELECT column1, column2 FROM table_name WHERE column2 BETWEEN 10 AND 20;
 SELECT column1, column2 FROM table_name WHERE column1 IN (value1, value2, ...);
+SELECT column1, column2 FROM table_name WHERE column3 LIKE 'pattern%';  -- 模糊匹配
+SELECT column1, column2 FROM table_name WHERE column4 IS NULL;  -- 为空值
+SELECT column1, column2 FROM table_name WHERE column5 IS NOT NULL;  -- 非空值
+
 ```
 ## 聚合函数
 ### COUNT() 函数
