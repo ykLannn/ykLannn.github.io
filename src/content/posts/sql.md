@@ -105,3 +105,105 @@ SELECT t1.column1, t2.column2 FROM table1 AS t1 RIGHT JOIN table2 AS t2 ON t1.ke
 -- 全外连接，返回左表和右表中所有的行，以及匹配的行
 SELECT t1.column1, t2.column2 FROM table1 AS t1 FULL JOIN table2 AS t2 ON t1.key = t2.key;
 ```
+## 子查询
+### 单行子查询
+```sql
+-- 使用单行子查询
+SELECT column1, column2 FROM table_name WHERE column1 = (SELECT column1 FROM another_table WHERE condition);
+```
+### 多行子插询
+```sql
+-- 使用多行子查询
+SELECT column1, column2 FROM table_name WHERE column1 IN (SELECT column1 FROM another_table WHERE condition);
+```
+### 相关子查询
+```sql
+-- 使用相关子查询
+SELECT column1, column2 FROM table_name WHERE EXISTS (SELECT 1 FROM another_table WHERE table_name.column1 = another_table.column1);
+```
+## 数据操作
+### 插入数据
+```sql
+-- 插入一行数据
+INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+-- 插入多行数据
+INSERT INTO table_name (column1, column2) VALUES (value1, value2), (value3, value4);
+```
+### 更新数据
+```sql
+-- 更新表中的数据
+UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+```
+### 删除数据
+```sql
+-- 删除表中的数据
+DELETE FROM table_name WHERE condition;
+```
+## 创建和删除表
+### 创建表
+```sql
+-- 创建一个新的表
+CREATE TABLE table_name (
+  column1 datatype PRIMARY KEY,
+  column2 datatype NOT NULL,
+  column3 datatype DEFAULT default_value
+);
+```
+### 删除表
+```sql
+-- 删除一个表
+DROP TABLE table_name;
+```
+### 修改表
+```sql
+-- 向表中添加列
+ALTER TABLE table_name ADD column_name datatype;
+-- 删除表中的列
+ALTER TABLE table_name DROP COLUMN column_name;
+-- 修改表中列的数据类型
+ALTER TABLE table_name MODIFY COLUMN column_name new_datatype;
+```
+### 创建索引
+```sql
+-- 创建一个新的索引
+CREATE INDEX index_name ON table_name (column_name);
+-- 删除一个索引
+DROP INDEX index_name;
+```
+## 事务处理
+### 开始事务
+```sql
+-- 开始一个事务
+START TRANSACTION;
+```
+### 提交事务
+```sql
+-- 提交一个事务
+COMMIT;
+```
+### 回滚事务
+```sql
+-- 回滚一个事务
+ROLLBACK;
+```
+## 查看表结构
+### 显示表的定义
+```sql
+-- 显示表的定义
+DESCRIBE table_name;
+```
+### 查看表的定义
+```sql
+-- 查看表的索引
+SHOW INDEX FROM table_name;
+```
+### 查看表的索引
+```sql
+-- 查看表的索引
+SHOW INDEX FROM table_name;
+```
+### 查看数据库中的表
+```sql
+-- 查看数据库中的所有表
+SHOW TABLES;
+```
