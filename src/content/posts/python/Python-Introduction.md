@@ -1,9 +1,9 @@
 ---
 title: Python-Introduction
 published: 2024-07-23
-description: ''
+description: 'python lab0-introduction'
 image: ''
-tags: []
-category: ''
+tags: [python]
+category: 'python'
 draft: false 
 ---
