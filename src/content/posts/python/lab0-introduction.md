@@ -1,5 +1,5 @@
 ---
-title: Python-Introduction
+title: lab0-introduction
 published: 2024-07-23
 description: 'python lab0-introduction'
 image: ''
