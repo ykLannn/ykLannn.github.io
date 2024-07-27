@@ -86,23 +86,23 @@ Observe that this file currently contains a multi-line comment at the top. Edit 
 ### Specification
 For full credit, your program must do each of the following:
 
-• Ask the user for at least two piecfes of information about themselves
+>• Ask the user for at least two piecfes of information about themselves
 
-• Display some response that both says something about the program and relates it in some meaningful way to the information the user gave you.
+>• Display some response that both says something about the program and relates it in some meaningful way to the information the user gave you.
 
 In addition, the way in which your code accomplishes the above must satisfy the following requirements:
 
-• Use the `input()` funciton
+>• Use the `input()` funciton
 
-• Use (at least) one variable
+>• Use (at least) one variable
 
-• Use (at least) two of the operators `+,-,/,*,**,//,%`
+>• Use (at least) two of the operators `+,-,/,*,**,//,%`
 
-• Operate (at least) once on something of type `int` or `float`
+>• Operate (at least) once on something of type `int` or `float`
 
-• Operate (at least) once on something of type `str`
+>• Operate (at least) once on something of type `str`
 
-• Use (at least) two conditional expressions (i.e., `if` statements) 
+>• Use (at least) two conditional expressions (i.e., `if` statements) 
 ### Example
 
 The previous section outlines the requirements. You're strongly encouraged to exercise your creativity in satisfying them! The following is an example of a program that satisfies the (minimum) requirements. (Yes, you'll have to take our word for it that the underlying code satisifes the implementation requirements... note the distinction between *what* something is doing and \*how\* it does it!)
